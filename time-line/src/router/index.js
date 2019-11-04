@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '@/views/home'
+import Home from '../views/home/index.vue'
 
-import Timeline from '@/views/home/timeline'
-import My from '@/views/home/my'
+import Timeline from '../views/home/timeline'
+import My from '../views/home/my'
 
 Vue.use(VueRouter)
 
