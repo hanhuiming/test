@@ -10,11 +10,25 @@
             </router-link>
             <router-link to="/home/my" tag="span">
                 <i class="iconfont iconnanhai"></i>
-                <span> 我的</span>
+                <span v-on:click="geter"> 我的</span>
             </router-link>
         </footer>
     </div>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            
+        }
+    },
+    methods: {
+        geter:function(){
+            window.console.log(this)
+        }
+    },
+}
+</script>
 
 <style lang="scss" scoped>
 .wrap{

@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/home/index.vue'
+import Register from "../views/home/registers.vue"
+import Login from "../views/home/logins.vue"
 
 import Timeline from '../views/home/timeline'
 import My from '../views/home/my'
@@ -16,11 +18,11 @@ const routes = [
   },
   {
     path: '/login', // 登陆页面
-    component: null
+    component: Login
   },
   {
     path: '/register',  // 注册页面
-    component: null
+    component: Register
   },
   {
     path: '/favor', // 收藏页面
